@@ -8,3 +8,10 @@ function mostrarDataHora() {
 mostrarDataHora()
 
  // const hora = data.getHours();
+
+function alterarNomeAlteracaoMaiusculo() {
+    const nomeAlteracao = document.getElementById('nome-alteracao');
+    nomeAlteracao.innerText = nomeAlteracao.innerText.toUpperCase();
+}
+
+alterarNomeAlteracaoMaiusculo()
